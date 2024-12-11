@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Details Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="body7">
+  <div class="form-container">
+    <form class="contact-form">
+      <!-- Personal Details -->
+      <div class="grid">
+        <div>
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" readonly value="John">
+        </div>
+        <div>
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" readonly value="Doe">
+        </div>
+        <div>
+          <label for="email">E-mail Address</label>
+          <input type="email" id="email" placeholder="example@gmail.com" readonly value="john.doe@example.com">
+        </div>
+      </div>
+
+      <!-- Contact Details -->
+      <div class="grid">
+        <div>
+          <label for="phone1">Phone Number 1</label>
+          <input type="text" id="phone1" readonly value="+251 912 345 678">
+        </div>
+        <div>
+          <label for="city">City of Residence</label>
+          <input type="text" id="city" readonly value="Addis Ababa">
+        </div>
+        <div>
+          <label for="gender">Gender</label>
+          <input type="text" id="gender" readonly value="Male">
+        </div>
+        <div>
+          <label for="startDate">Start Date</label>
+          <input type="date" id="startDate" readonly value="2022-01-01">
+        </div>
+      </div>
+
+      <!-- Job Details -->
+      <div class="grid">
+        <div>
+          <label for="baseSalary">Base Salary</label>
+          <input type="number" id="baseSalary" readonly value="10000">
+        </div>
+        <div>
+          <label for="jobTitle">Job Title</label>
+          <input type="text" id="jobTitle" readonly value="Software Engineer">
+        </div>
+      </div>
+
+      <!-- Bonus (Prime de risque) -->
+      <div class="grid">
+        <!-- Repeatable Bonus Inputs -->
+        <div>
+          <label for="prime0">Prime de risque</label>
+          <input type="number" id="prime0" placeholder="0" readonly value="2000">
+        </div>
+        <div>
+          <label for="prime1">Prime de risque</label>
+          <input type="number" id="prime1" placeholder="0" readonly value="3000">
+        </div>
+        <div>
+          <label for="prime0">Prime de risque</label>
+          <input type="number" id="prime0" placeholder="0" readonly value="4000">
+        </div>
+        <div>
+          <label for="prime1">Prime de risque</label>
+          <input type="number" id="prime1" placeholder="0" readonly value="5000">
+        </div>
+        <div>
+          <label for="prime0">Prime de risque</label>
+          <input type="number" id="prime0" placeholder="0" readonly value="6000">
+        </div>
+        <div>
+          <label for="prime1">Prime de risque</label>
+          <input type="number" id="prime1" placeholder="0" readonly value="7000">
+        </div>
+        <div>
+          <label for="prime0">Prime de risque</label>
+          <input type="number" id="prime0" placeholder="0" readonly value="8000">
+        </div>
+        <div>
+          <label for="prime1">Prime de risque</label>
+          <input type="number" id="prime1" placeholder="0" readonly value="9000">
+        </div>
+        <div>
+          <label for="prime0">Prime de risque</label>
+          <input type="number" id="prime0" placeholder="0" readonly value="10000">
+        </div>
+        <div>
+          <label for="prime1">Prime de risque</label>
+          <input type="number" id="prime1" placeholder="0" readonly value="11000">
+        </div>
+        <!-- Add more dynamically as needed -->
+      </div>
+
+      <!-- Submit Button -->
+      <div class="form-footer">
+        <button type="submit" class="submit-btn" onclick="goToAuthorPage('Admin_Dashboard.html')">Done</button>
+      </div>
+    </form>
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>

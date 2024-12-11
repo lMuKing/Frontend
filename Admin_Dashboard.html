@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="body5">
+  <div class="dashboard">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="admin-info">
+        <img src="./user(1).png" alt="Admin" class="avatar">
+        <div>
+          <h2>Aman Admin</h2>
+          <p>Admin</p>
+        </div>
+      </div>
+      <nav>
+        <h3>Features</h3>
+        <button class="nav-item active">Dashboard</button>
+        <h3>Organization</h3>
+        <button class="nav-item" onclick="goToAuthorPage('Employee_Management.html')">Employee Management</button>
+        <button class="nav-item">Leave Management</button>
+        <h3>KRIS Pay</h3>
+        <button class="nav-item">Payroll Management</button>
+        <button class="logout">Log Out</button>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content">
+      <div class="search-bar">
+        <input type="search" placeholder="Search...">
+        <button class="search-btn"></button>
+      </div>
+      <h1>Dashboard</h1>
+
+      <!-- Metric Cards -->
+      <div class="metrics">
+        <div class="metric-card yellow">
+          <p class="number">20</p>
+          <p>Employees</p>
+        </div>
+        <div class="metric-card blue">
+          <p class="number">8</p>
+          <p>Leaves</p>
+        </div>
+        <div class="metric-card green">
+          <p class="number">7</p>
+          <p>Payrolls</p>
+        </div>
+      </div>
+
+      <!-- Employee List -->
+      <div class="employee-list">
+        <h2>Employees</h2>
+        <div class="employee">
+          <div class="details">
+            <img src="./user(1).png" alt="Aman" class="employee-avatar">
+            <div>
+              <p class="name">Aman</p>
+              <p class="role">Product Manager</p>
+            </div>
+          </div>
+          <div class="actions">
+            <button " onclick="goToAuthorPage('View.html')">View</button>
+            <button>Download</button>
+          </div>
+        </div>
+        <div class="employee">
+          <div class="details">
+            <img src="./user(1).png" alt="Aman" class="employee-avatar">
+            <div>
+              <p class="name">Aman</p>
+              <p class="role">Product Manager</p>
+            </div>
+          </div>
+          <div class="actions">
+            <button onclick="goToAuthorPage('View.html')">View</button>
+            <button>Download</button>
+          </div>
+        </div>
+        <div class="employee">
+          <div class="details">
+            <img src="./user(1).png" alt="Aman" class="employee-avatar">
+            <div>
+              <p class="name">Aman</p>
+              <p class="role">Product Manager</p>
+            </div>
+          </div>
+          <div class="actions">
+            <button onclick="goToAuthorPage('View.html')">View</button>
+            <button>Download</button>
+          </div>
+        </div>
+        <div class="employee">
+          <div class="details">
+            <img src="./user(1).png" alt="Aman" class="employee-avatar">
+            <div>
+              <p class="name">Aman</p>
+              <p class="role">Product Manager</p>
+            </div>
+          </div>
+          <div class="actions">
+            <button onclick="goToAuthorPage('View.html')">View</button>
+            <button>Download</button>
+          </div>
+        </div>
+        <div class="employee">
+          <div class="details">
+            <img src="./user(1).png" alt="Aman" class="employee-avatar">
+            <div>
+              <p class="name">Aman</p>
+              <p class="role">Product Manager</p>
+            </div>
+          </div>
+          <div class="actions">
+            <button onclick="goToAuthorPage('View.html')">View</button>
+            <button>Download</button>
+          </div>
+        </div>
+        <div class="employee">
+          <div class="details">
+            <img src="./user(1).png" alt="Aman" class="employee-avatar">
+            <div>
+              <p class="name">Aman</p>
+              <p class="role">Product Manager</p>
+            </div>
+          </div>
+          <div class="actions">
+            <button onclick="goToAuthorPage('View.html')">View</button>
+            <button>Download</button>
+          </div>
+        </div>
+        <div class="employee">
+          <div class="details">
+            <img src="./user(1).png" alt="Aman" class="employee-avatar">
+            <div>
+              <p class="name">Aman</p>
+              <p class="role">Product Manager</p>
+            </div>
+          </div>
+          <div class="actions">
+            <button onclick="goToAuthorPage('View.html')">View</button>
+            <button>Download</button>
+          </div>
+        </div>
+        <!-- Repeat employee items as needed -->
+      </div>
+    </main>
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>
